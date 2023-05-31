@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         <script src="https://kit.fontawesome.com/0a1d8aff62.js" crossorigin="anonymous"></script>
         <link href="../CSS/main-styles.css" rel="stylesheet" type="text/css">
+        <link href="../CSS/gallery.css" rel="stylesheet" type="text/css">
         <link rel="icon" href="../media/icon/sonic-head-favicon.png" type="image/x-icon">
         <meta charset="UTF-8">
 
@@ -31,44 +32,92 @@
         </div>
         <button id="dark-mode-toggle" class="rotate">🌙</button>
     </nav>
-    
+<body>
 
-    <div class="hero">
-        <img class="background" src="../media/banners/elise-sonic-silver.png" alt="Background Image 1">
-        <img class="background" src="../media/banners/enemy-sonic.png" alt="Background Image 2">
-        <img class="background" src="../media/banners/shadow-sonic.png" alt="Background Image 3">
-        <img class="background" src="../media/banners/sonic-run.png" alt="Background Image 4">
+    <div class="grid image-grid">
 
-        <div id="start" class="content">
-            <img class="titles" src="../media/icon/p06-logo.png" alt="Sonic The Hedgehog Project '06">
-            <h3 class="heroSub">A fan recreation of the 2006 next-generation Sonic The Hedgehog reboot.</h3>
-            <a href="#videoJump" class="button">Get Started</a>
-        
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img1" src="../media/banners/sonic-run.png" alt="Image">
+            </a>
+          </div>
+        </div>
+      
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img2" src="../media/banners/elise-sonic-silver.png" alt="Image">
+            </a>
+          </div>
+        </div>
+      
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img3" src="../media/banners/enemy-sonic.png" alt="Image">
+            </a>
+          </div>
+        </div>
+      
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img4" src="../media/banners/shadow-sonic.png" alt="Image">
+            </a>
+          </div>
+        </div>
+      
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img5" src="../media/banners/the-big-1.png" alt="Image">
+            </a>
+          </div>
         </div>
 
-        </div>
-    </div>
-    <div id="start" class="content">
-        <h2>"Nothing starts until you take action. If you've got time to worry, run!"</h2>
-        <p>Sonic the Hedgehog: Project '06, or simply Sonic P-06, is an upcoming platform game developed by Argentinian programmer Ian "ChaosX" Moris for Microsoft Windows. It is an unofficial remake of the 2006 video game Sonic the Hedgehog, originally developed by Sonic Team and published by Sega.</p>
-        <p>As the original game is infamous for its poor quality, the remake aims to fix its issues, as well as restore content scrapped during development. As of April 2023, the project has had five demos released, with each demo getting a bug-fix patch that would address certain issues, while also adding more quality of life improvements, based on fan feedback.</p>
-        <h2>Are you ready for the next level?</h2>
-    </div>
-    <div class="button-container">
-        <a href="../HTML/timeline.html" class="button">Development Timeline <i class="fa-solid fa-timeline"></i></a>
-        <a href="https://example2.com" class="button">Media Gallery <i class="fa-regular fa-image"></i></a>
-    </div>
+        <div class="grid-block">
+            <div class="tile">
+              <a class="tile-link" href="#">
+                <img class="tile-img tile-img5" src="../media/banners/the-big-2.png" alt="Image">
+              </a>
+            </div>
+          </div>
 
-    <div id="videoJump" class="video-container">
-        <div class="youtube-wrapper">
-            <iframe class="youtube-video" src="https://www.youtube.com/embed/SCD5aQLlCD4" 
-                frameborder="0" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                allowfullscreen>
-            </iframe>
+          <div class="grid-block">
+            <div class="tile">
+              <a class="tile-link" href="#">
+                <img class="tile-img tile-img5" src="../media/banners/the-big-shad.png" alt="Image">
+              </a>
+            </div>
+          </div>
+      
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img6" src="../media/screenshots/blaze-gameplay1.jpg" alt="Image">
+            </a>
+          </div>
         </div>
-    </div>
-    
+      
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img7" src="../media/screenshots/blaze-gameplay2.jpg" alt="Image">
+            </a>
+          </div>
+        </div>
+      
+        <div class="grid-block">
+          <div class="tile">
+            <a class="tile-link" href="#">
+              <img class="tile-img tile-img8" src="../media/screenshots/shadow-sandboard.png" alt="Image">
+            </a>
+          </div>
+        </div>
+      
+      </div>
+
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section links">
@@ -80,6 +129,7 @@
                     <li><a href="https://twitter.com/ChaosX2006?s=20">ChaosX Twitter Page</a></li>
                     <li><a href="https://mb.srb2.org/members/chaosx.5301/">ChaosX SRB2 Message Board</a></li>
                 </ul>
+                
             </div>
             <div class="footer-section about">
                 <div class="social-icons">
@@ -88,6 +138,7 @@
                     <a href="https://www.youtube.com/@ChaosX" target="_blank"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
+            
         </div>
         <div class="footer-bottom">
             <p>© 2023 ChaosX & Sonic Team. All rights reserved.</p>

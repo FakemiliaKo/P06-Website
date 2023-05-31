@@ -53,3 +53,15 @@
                 top: offsetPosition,
                 behavior: 'smooth'
             });
+            document.getElementById('read-more-btn').addEventListener('click', function() {
+                var content = document.getElementById('content');
+                if (content.style.height === '3em') {
+                    content.style.height = 'auto';
+                    this.textContent = 'Read Less';
+                } else {
+                    content.style.height = '3em';
+                    this.textContent = 'Read More';
+                }
+            });
+                        
+            
