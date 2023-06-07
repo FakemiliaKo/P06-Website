@@ -135,12 +135,8 @@
             cursor: pointer;
             position: relative;
             display: inline-block;
-            /* Rest of the styles... */
         }
         
-        /* Rest of your CSS */
-        
-        /* New code */
 
         .video-container {
             display: flex;
